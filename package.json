@@ -1,0 +1,45 @@
+{
+  "name": "rams-icons",
+  "version": "0.0.2",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/rams-icons.umd.cjs",
+  "module": "./dist/rams-icons.js",
+  "exports": {
+    ".": {
+      "import": "./dist/rams-icons.js",
+      "require": "./dist/rams-icons.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@types/node": "^20.14.6",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
