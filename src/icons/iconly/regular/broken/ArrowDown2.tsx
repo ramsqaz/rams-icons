@@ -9,7 +9,7 @@ const IcBrokenArrowDown2 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#000"
+      fill="currentColor"
       fillRule="evenodd"
       d="M4.242 7.744a.814.814 0 0 1 1.164.002l7.177 7.326a.846.846 0 0 1-.003 1.184.811.811 0 0 1-1.163-.002L4.241 8.926a.847.847 0 0 1 0-1.183m14.35.002a.814.814 0 0 1 1.165-.002.847.847 0 0 1 .003 1.184l-4.765 4.865a.813.813 0 0 1-1.163.002.847.847 0 0 1-.004-1.183z"
       clipRule="evenodd"

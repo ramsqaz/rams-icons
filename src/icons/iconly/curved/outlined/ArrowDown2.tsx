@@ -9,7 +9,7 @@ const IcCurArrowDown2 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#484848"
+      fill="currentColor"
       fillRule="evenodd"
       d="M19.75 8.5c0 .13-.033.262-.104.382-.447.754-4.455 7.368-7.646 7.368S4.801 9.637 4.354 8.882a.75.75 0 1 1 1.292-.764c1.52 2.564 4.587 6.632 6.354 6.632 1.77 0 4.837-4.068 6.354-6.632a.75.75 0 0 1 1.396.383"
       clipRule="evenodd"

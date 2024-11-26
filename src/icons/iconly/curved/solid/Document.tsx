@@ -9,7 +9,7 @@ const IcCurFillDocument = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#484848"
+      fill="currentColor"
       fillRule="evenodd"
       d="M15.595 12.688h-7.22a.75.75 0 0 1 0-1.5h7.22a.75.75 0 0 1 0 1.5m0 3.758h-7.22a.75.75 0 0 1 0-1.5h7.22a.75.75 0 0 1 0 1.5m-7.22-9.02h2.755a.75.75 0 0 1 0 1.5H8.375a.75.75 0 0 1 0-1.5M12 2.25c-6.565 0-8.891 2.552-8.891 9.75s2.326 9.75 8.89 9.75c6.565 0 8.892-2.552 8.892-9.75S18.564 2.25 12 2.25"
       clipRule="evenodd"
