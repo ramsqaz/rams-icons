@@ -4,7 +4,7 @@
 2. Create your own new config(you can dublicate some of them)
 3. Make sure that you changed all fill, stroke, color values to currentColor, or you can add the colors that you met on your svg files and add it to 'app/settings/common.config.cjs' on object 'replaceAttrValues', it helps to controll icon color by props in the future:
 
-```json
+```javascript
 replaceAttrValues: {
     '#6C6D6D': 'currentColor',
     //you can add your own colors that you want to change to currentColor
