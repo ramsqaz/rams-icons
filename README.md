@@ -23,8 +23,15 @@ export * from "./outlined";
 export * from "./solid";
 ```
 
-6. Add export to index file of icons
+6. Add export to index file of icons:
 
 ```javascript
 export * from "./iconly";
+```
+
+6. Build and publish:
+
+```console
+yarn build
+yarn publish
 ```
