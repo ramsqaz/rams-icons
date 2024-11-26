@@ -11,4 +11,7 @@ const solid = true; //false if outlined
 ```
 
 4. run code to cmd
-   $ npx @svgr/cli --config-file <path-to-config-file> <path to where saved your svg files>
+
+```console
+npx @svgr/cli --config-file <path-to-config-file> <path to where saved your svg files>
+```
