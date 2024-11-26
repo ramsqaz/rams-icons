@@ -39,6 +39,8 @@ export { default as InSearch } from "./Search";
 export { default as InSettingsAdjust } from "./SettingsAdjust";
 export { default as InSettingsAlt } from "./SettingsAlt";
 export { default as InSettings } from "./Settings";
+export { default as InSettingsBase } from "./SettingsBase";
+export { default as InMinus } from "./Minus";
 export { default as InSort } from "./Sort";
 export { default as InStack } from "./Stack";
 export { default as InTrashAlt } from "./TrashAlt";

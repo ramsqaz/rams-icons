@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# How to create new Icon Components By Their Svgs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Download svg files that you need and import it in svg file
+2. Create your own new config(you can dublicate some of them)
+3. Change parameters:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```javascript
+const outDir = BaseDir + "/iconly/curved/solid"; // where u want to save transformed icon components
+const dirPrefix = "IcCur"; //prefix for Icon Name for fast access by directory
+const solid = true; //false if outlined
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. run code to cmd
+   $ npx @svgr/cli --config-file <path-to-config-file> <path to where saved your svg files>
