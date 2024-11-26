@@ -9,3 +9,4 @@ export * from "./navigation";
 export * from "./brands";
 export * from "./bio";
 export * from "./rdb";
+export * from "./iconly";

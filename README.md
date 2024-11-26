@@ -10,8 +10,21 @@ const dirPrefix = "IcCur"; //prefix for Icon Name for fast access by directory
 const solid = true; //false if outlined
 ```
 
-4. run code to cmd
+4. Run this code to cmd
 
 ```console
 npx @svgr/cli --config-file <path-to-config-file> <path to where saved your svg files>
+```
+
+5. Create index file on your folder and export your icon components:
+
+```javascript
+export * from "./outlined";
+export * from "./solid";
+```
+
+6. Add export to index file of icons
+
+```javascript
+export * from "./iconly";
 ```
